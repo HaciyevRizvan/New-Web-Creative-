@@ -363,7 +363,6 @@ body {
     background: white;
     text-align: center;
     padding: 40px;
-    background: white;
     margin-bottom: 7px; }
     #four .svgbox #svg path {
       stroke: #1d1d1d;
@@ -380,6 +379,15 @@ body {
           transition: 0.1s; }
     #four .svgbox p {
       margin-top: 12px; }
+    #four .svgbox:hover {
+      background: #0d42be;
+      transition: all 0.5s ease; }
+      #four .svgbox:hover h1 {
+        color: white; }
+      #four .svgbox:hover h3 a {
+        color: white; }
+      #four .svgbox:hover p {
+        color: white; }
   #four .top {
     position: relative;
     top: -250px; }
@@ -398,19 +406,19 @@ body {
     font-weight: bold; }
   #five .topc .topr {
     margin-top: 70px; }
-    #five .topc .topr .lborder {
+    #five .topc .topr .bord .lborder {
       border-left: 1px solid white;
       margin-top: 30px;
       margin-bottom: 80px;
       color: white; }
-      #five .topc .topr .lborder li {
+      #five .topc .topr .bord .lborder li {
         list-style: none;
         line-height: 2; }
-        #five .topc .topr .lborder li a {
+        #five .topc .topr .bord .lborder li a {
           text-decoration: none;
           color: white;
           font-weight: bold; }
-    #five .topc .topr h4 {
+    #five .topc .topr .bord h4 {
       color: white;
       letter-spacing: -0.3px;
       font-weight: bold;
@@ -502,8 +510,11 @@ body {
       background: white; }
       #six .svgbox button:hover {
         background: #0d42be;
-        border: 2px solid #0d42be;
+        border: 2px solid black;
         color: white; }
+    #six .svgbox:hover {
+      background: #0d42be;
+      transition: 0.5s ease; }
   #six .top {
     position: relative;
     margin: 70px 0px; }
